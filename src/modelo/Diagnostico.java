@@ -1,9 +1,9 @@
 package modelo;
 
-/** Resultado del diagnóstico de una pila: nivel de alerta, hallazgos y acciones sugeridas. */
+
 public class Diagnostico {
 
-    private String nivel;             // Óptima, Precaución o Crítica
+    private String nivel;            
     private String[] hallazgos = new String[10];
     private int totalHallazgos;
     private String[] acciones = new String[10];
